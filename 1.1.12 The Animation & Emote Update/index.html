@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineer's Blueprint</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style id="dynamic-theme-styles">
+    :root {
+      --color-primary: #0ea5e9; /* sky-500 */
+      --color-primary-hover: #0284c7; /* sky-600 */
+      --color-primary-focus: #0369a1; /* sky-700 */
+      --color-primary-text: #ffffff;
+
+      /* Dark Mode Defaults */
+      --color-background: #0f172a; /* slate-900 */
+      --color-text-primary: #e2e8f0; /* slate-200 */
+      --color-text-secondary: #94a3b8; /* slate-400 */
+      --color-text-muted: #64748b; /* slate-500 */
+      --color-text-accent: #38bdf8; /* sky-400 */
+      --color-surface-1: #1e293b; /* slate-800 */
+      --color-surface-2: #334155; /* slate-700 */
+      --color-surface-3: #475569; /* slate-600 */
+      --color-border: #475569; /* slate-600 */
+      --color-scrollbar-track: #1e293b;
+      --color-scrollbar-thumb: var(--color-primary);
+      --color-scrollbar-thumb-hover: var(--color-primary-hover);
+      --color-selection-bg: var(--color-primary);
+      --color-selection-text: var(--color-primary-text);
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
+    }
+    ::selection {
+      background-color: var(--color-selection-bg);
+      color: var(--color-selection-text);
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--color-scrollbar-track);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--color-scrollbar-thumb);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--color-scrollbar-thumb-hover);
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom": "https://esm.sh/react-dom@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai",
+    "@/": "/",
+    "@/data/spaceEngineersData": "/data/spaceEngineersData.ts",
+    "@/data/categoryClassesData": "/data/categoryClassesData.ts",
+    "@/data/blueprintClassDefinitionsData": "/data/blueprintClassDefinitionsData.ts",
+    "@/data/blueprintRecipesData": "/data/blueprintRecipesData.ts",
+    "@/data/botData": "/data/botData.ts",
+    "@/data/componentsData": "/data/componentsData.ts",
+    "@/data/droneBehaviorData": "/data/droneBehaviorData.ts",
+    "@/data/AIBehaviourData": "/data/AIBehaviourData.ts",
+    "@/data/animationEmoteData": "/data/animationEmoteData.ts"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <div id="tooltip-portal-root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

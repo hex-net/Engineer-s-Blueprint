@@ -1,0 +1,31 @@
+{
+  "name": "engineer's-blueprint",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.0",
+    "react": "^19.1.0",
+    "@google/genai": "latest",
+    "@": "latest",
+    "@/data/spaceEngineersData": "latest",
+    "@/data/categoryClassesData": "latest",
+    "@/data/blueprintClassDefinitionsData": "latest",
+    "@/data/blueprintRecipesData": "latest",
+    "@/data/botData": "latest",
+    "@/data/componentsData": "latest",
+    "@/data/droneBehaviorData": "latest",
+    "@/data/AIBehaviourData": "latest",
+    "@/data/animationEmoteData": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
