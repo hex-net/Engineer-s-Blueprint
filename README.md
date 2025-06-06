@@ -9,7 +9,8 @@ Feel free to scour the files yourself and make a discussion in the discussions p
 Any errors or mistakes you may find in the actual program will if any mostly be incorrect naming, incorrect mathematics or incorrect materials that I have missed, once again, please do make a comment in Discussions for review and updating.
 
 
-This app is currently in Beta testing
+This app is currently in Beta testing.
+
 Please report any inconcistencies or mistakes in the Issues tab or Discussions tab for review and updating.
 
 
